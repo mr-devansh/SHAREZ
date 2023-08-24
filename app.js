@@ -17,7 +17,7 @@ app.use(bodyParser.urlencoded({
 app.use(express.static("public"));
 app.set('view engine', 'ejs');
 
-mongoose.connect("mongodb+srv://admin-devansh:Devansh69@sharez.bnxxxos.mongodb.net/?retryWrites=true&w=majority");
+mongoose.connect("--");
 
 const shareSchema = new mongoose.Schema({
   message: String,
